@@ -120,7 +120,7 @@ P_E <- matrix(NA,nrow=4,ncol=4)
 #Finding the rows of the P_E matrix
 P_E[1,] <- c(0,row1,0) # First row
 P_E[2,] <- c(0,1,0,0) # Second row
-P_E[3,] <- c(row3[1:2],0,row3[3]) # Third row
+P_E[3,] <- c(row3[2:1],0,row3[3]) # Third row
 P_E[4,] <- c(0,0,0,1) # Fourth row
 
 # equilibrium probability matrix
